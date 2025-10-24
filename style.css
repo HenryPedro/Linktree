@@ -22,7 +22,7 @@ main img{
     max-width:100%;
     height: auto;
     border-radius: 1.5rem;
-    border: 0.1rem solid black;
+    border: 0.3rem solid black;
 }
 .cor-diferente{
     color: #FF0000;
@@ -58,4 +58,39 @@ a:hover{
     font-size: 14px;
     color: #888;
     margin-bottom: 10px;
+}
+#theme-toggle{
+    background-color: #333;
+    color: #f7f7f7;
+    border-radius: 1.4rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif; /* Mesma fonte do site */
+    font-weight: bold;
+    margin-bottom: 2rem; /* Espaço antes do footer */
+    transition: background-color 0.3s ease;
+}
+#theme-toggle:hover {
+    background-color: #555;
+}
+body.dark-mode{
+    background-color: #222; /* Fundo bem escuro */
+    color: #E8E8E8;         /* Texto claro (o mesmo do seu fundo light) */
+}
+body.dark-mode main img {
+    border-color: #E8E8E8;
+}
+body.dark-mode section a {
+    background-color: #444;
+    color: #E8E8E8;
+}
+body.dark-mode #theme-toggle {
+    background-color: #E8E8E8;
+    color: #222;
+}
+
+body.dark-mode #theme-toggle:hover {
+    background-color: #ccc;
 }
