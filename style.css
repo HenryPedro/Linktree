@@ -7,7 +7,10 @@ body{
     margin: 0;
     min-height: 100vh;
     justify-content: center;
-    background-color: #BDBDBD;
+    background-color: #E8E8E8;
+}
+h1{
+    font-size:xx-large;
 }
 main{
     text-align: center;
@@ -16,8 +19,13 @@ main{
     padding: 1rem;     /* Espaçamento interno */
 }
 main img{
+    max-width:100%;
+    height: auto;
     border-radius: 1.5rem;
     border: 0.1rem solid black;
+}
+.cor-diferente{
+    color: #FF0000;
 }
 section {
     display: flex;
@@ -27,15 +35,20 @@ section {
 }
 section a{
     color: white;   
+    border: 0.2rem solid #0f0f0f;
     background-color: red;
     border-radius: 0.7rem;
-    padding: 0.8rem 0.8rem; /* Deixa o botão mais 'gordinho' */
+    padding: 0.7rem 0.7rem; /* Deixa o botão mais 'gordinho' */
     text-decoration: none;
     font-weight: bold;
     text-align: center;
     
+    
     /* (Bônus) Efeito ao passar o mouse */
     transition: transform 0.2s ease-in-out;
+}
+a:hover{
+    transform:scale(1.1);
 }
 #footer{
     position:relative;
