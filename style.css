@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+body{
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    background-color: red;
+    color: white;
+    border-radius: 2.5rem;
+    text-decoration: underline;
+    padding: 0.5rem 2rem; 
+    
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
